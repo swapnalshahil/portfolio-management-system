@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/nobroker/Desktop/projects/portfolio-management-system/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -I/home/nobroker/Desktop/projects/portfolio-management-system/dependency/Crow/include -g -o CMakeFiles/portfolio-management-system.dir/main.cpp.o -c /home/nobroker/Desktop/projects/portfolio-management-system/main.cpp",
+  "file": "/home/nobroker/Desktop/projects/portfolio-management-system/main.cpp"
+}
+]

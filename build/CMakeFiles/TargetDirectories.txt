@@ -1,0 +1,5 @@
+/home/nobroker/Desktop/projects/portfolio-management-system/build/CMakeFiles/portfolio-management-system.dir
+/home/nobroker/Desktop/projects/portfolio-management-system/build/CMakeFiles/package.dir
+/home/nobroker/Desktop/projects/portfolio-management-system/build/CMakeFiles/package_source.dir
+/home/nobroker/Desktop/projects/portfolio-management-system/build/CMakeFiles/edit_cache.dir
+/home/nobroker/Desktop/projects/portfolio-management-system/build/CMakeFiles/rebuild_cache.dir

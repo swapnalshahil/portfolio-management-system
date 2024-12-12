@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/portfolio-management-system.dir/main.cpp.o -o portfolio-management-system  -lboost_system -lpthread /usr/lib/x86_64-linux-gnu/libcurl.so /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0 -lpthread /usr/lib/x86_64-linux-gnu/libcurl.so 
