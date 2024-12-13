@@ -361,6 +361,19 @@ int main()
             conn->send_text(message);
         }
     };
+    //created a thread to broadcast orderbook details
+    // we can update the logic for subscribed instruments in similar way
+    std::thread data_update_thread([&]()
+    {
+        while (true) {
+            std::string orderbook_data = getOrderBook("BNB_USDC");
+
+            broadcast_message(orderbook_data);
+
+            std::this_thread::sleep_for(std::chrono::seconds(5)); 
+        }
+    });
+    data_update_thread.detach();
 
     CROW_ROUTE(app, "/health")
     ([]()
